@@ -16,7 +16,13 @@
   border: none;
   resize: none;
   caret-color: white;
-  margin-left: 2%;
+  margin-left: 37px;
+}
+
+#writtenCode::-webkit-scrollbar {
+  background-color: transparent;
+  visibility: hidden;
+  display: none;
 }
 
 #olCode {
@@ -31,6 +37,12 @@
   height: 15px;
 }
 
+#olCode::-webkit-scrollbar {
+  background-color: transparent;
+  visibility: hidden;
+  display: none;
+}
+
 #olCode li::after {
   content: attr(data-number);
   position: relative;
@@ -40,14 +52,13 @@
 #olCode li span {
   display: flex;
   flex-wrap: wrap;
-  width: 97.5%;
+  width: 98%;
   height: 100%;
-  margin-left: 2%;
+  margin-left: 37px;
 }
 
 #olCode li p {
-  margin-right: 0.6%;
-  width: 100%;
+  margin-right: 0.4vw;
   height: 100%;
 }
 
@@ -58,10 +69,20 @@
 
 .const {
   color: #9966b8;
+  font-style: italic;
+}
+
+.let {
+  color: rebeccapurple;
+  font-style: italic;
 }
 
 .varName {
   color: #6688c1;
+}
+
+.varNameError {
+  text-decoration: red wavy underline 1px;
 }
 
 .equals {
@@ -72,6 +93,18 @@
   color: #f280d0;
 }
 
+.number {
+  color: #9dff00;
+}
+
 .default {
   color: #004499;
+}
+
+.dotCommat {
+  color: #0170f8;
+}
+
+.noMargin {
+  margin: 0 !important;
 }
