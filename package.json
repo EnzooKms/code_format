@@ -1,0 +1,22 @@
+{
+  "name": "codeformatteur",
+  "version": "1.0.0",
+  "description": "write code with color",
+  "main": "js/index.js",
+  "scripts": {
+    "dev": "vite --host"
+  },
+  "repository": {
+    "type": "git",
+    "url": "d"
+  },
+  "keywords": [
+    "code",
+    "format"
+  ],
+  "author": "Enzoo_Kms",
+  "license": "ISC",
+  "devDependencies": {
+    "vite": "^4.4.9"
+  }
+}
